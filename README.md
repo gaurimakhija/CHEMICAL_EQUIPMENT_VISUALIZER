@@ -71,11 +71,6 @@ A sample CSV `sample_equipment_data.csv` is included for testing and demo.
 - Visualize data tables and charts.
 - View historical uploads and generate PDF reports.
 
-## Contribution
-Contributions and improvements are welcome! Feel free to submit issues, feature requests, or pull requests.
-
-## License
-Specify your project license here.
 
 ---
 
