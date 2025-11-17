@@ -1,0 +1,97 @@
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Parisienne', cursive;
+  font-weight: normal; 
+
+
+  background: linear-gradient(135deg, #e0f7fa 0%, #80deea 100%);
+  color: #004d40;
+}
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.App-header {
+  width: 100vw;
+  background-color: #00796b;
+  padding: 2rem 3rem;
+  box-sizing: border-box;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  color: #e0f2f1;
+  text-align: center;
+  font-size: calc(12px + 2vmin);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  user-select: none;
+}
+
+
+.App-logo {
+  height: 25vmin;
+  max-height: 140px;
+  min-height: 80px;
+  margin: 0 auto 1.5rem;
+  pointer-events: none;
+  will-change: transform;
+  animation: App-logo-spin infinite 20s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .App-logo {
+    animation: none;
+  }
+}
+
+
+.App-link {
+  color: #4db6ac;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.App-link:hover,
+.App-link:focus {
+  color: #00796b;
+  outline: none;
+  text-decoration: underline;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.App-main {
+  flex-grow: 1;
+  padding: 2rem;
+  max-width: 960px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.Card {
+  background-color: white;
+  border-radius: 1.5rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
