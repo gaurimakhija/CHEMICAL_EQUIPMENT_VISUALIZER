@@ -46,10 +46,10 @@ const Login = () => {
                 </div>
 
                 <div className="bg-teal-50 border border-teal-200 rounded-xl p-4 mb-6" aria-label="Demo credentials">
-                    <p className="font-semibold text-teal-800 text-sm uppercase tracking-wide">Demo Credentials</p>
+                    <p className="font-semibold text-teal-800 text-sm uppercase tracking-wide">Demo User</p>
                     <div className="mt-2 space-y-1 text-sm">
-                        <p className="text-teal-700"><span className="font-medium">Username:</span> user@gauri</p>
-                        <p className="text-teal-700"><span className="font-medium">Password:</span> @gaurifossee</p>
+                        <p className="text-teal-700"><span className="font-medium">Username:</span> userg</p>
+                        <p className="text-teal-700"><span className="font-medium">Password:</span> gauri123</p>
                     </div>
                 </div>
 
